@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* height: 5000px */
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar .container {
+  width: 20%;
+  background-color: #bd5d38;
+  height: 100vh;
+  position: fixed;
+  padding-top: 5%;
+}
+h4,
+p,
+h1,
+h5,
+h6 {
+  color: #868e96;
+}
+h2,
+h3 {
+  color: #343a40;
+  font-weight: 700;
+}
+h1 {
+  padding-bottom: 0px;
+  font-size: 6em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+}
+h3 {
+  padding-bottom: 0px;
+  font-size: 2em;
+  position: relative;
+}
+h4 {
+  padding-bottom: 10px;
+}
+h5 {
+  padding-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+h6 {
+  padding-bottom: 50px;
+  font-size: 1em;
+  font-weight: 400;
+}
+p {
+  width: 70%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 100px;
+}
+.date {
+  text-align: right !important;
+  position: absolute;
+  color: #bd5d38;
+  right: 20px;
+  /* top: 40%; */
+  font-size: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+p {
+}
+a {
+  transition: all 0.4s linear;
+}
+.icon a {
+  background-color: #495057;
+  color: white;
+  border-radius: 100%;
+  padding: 15px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+.icon a:hover {
+  background-color: #bd5d38;
+}
+
+/* NAVBAR STARTS */
+.navbar .container {
+}
+.navbar .image {
+  width: 150px;
+}
+img {
+  width: 150px;
+  margin-left: 50px;
+  right: 0;
+  border-radius: 100%;
+  border: .5rem solid rgba(255,255,255,.2);
+}
+.navbar ul {
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+}
+
+.navbar li {
+  padding: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.navbar a {
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2em;
+}
+.navbar a:hover {
+  color: white;
+  transition: all 0.3s linear;
+}
+
+/* headname */
+
+.headname .container {
+  padding-left: 23%;
+  padding-top: 2%;
+  height: 100vh;
+}
+
+.headname h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+.nameemail {
+  color: #bd5d38;
+  text-decoration: none;
+}
+
+.headname h4 a:hover {
+  color: #824027;
+  text-decoration: underline;
+}
+/* HEADNAME ENDS */
+
+/* EXPERIENCE STARTS */
+.experience .container {
+  padding-left: 23%;
+  padding-top: 2%;
+}
+
+.second {
+  position: relative;
+}
+
+/*  exp ends */
+
+/* education starts */
+.education .container {
+  padding-top: 120px;
+  padding-left: 23%;
+}
+
+/* education end */
+
+/* skill starts */
+.skill .container {
+  padding-top: 120px;
+  padding-left: 23%;
+}
+.skill_ul ul {
+  color: #868e96;
+
+  position: relative;
+  flex-direction: column;
+  display: flex;
+}
+.skill_ul li {
+  display: inline-block;
+  padding-left: 25px;
+  padding-bottom: 3px;
+}
+.skill_ul i {
+  position: absolute;
+  left: 0;
+  line-height: 1.5em;
+  display: block;
+}
+
+.ul_icon {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 5 px;
+}
+
+.ul_icon a {
+  background-color: #495057;
+  color: white;
+  border-radius: 100%;
+  padding: 15px;
+  margin: auto 5px;
+  font-size: 1.5em;
+}
+.ul_icon a:hover {
+  background-color: #bd5d38;
+}
+
+/* skill ends */
+
+/* awards start */
+.awards .container {
+  padding-top: 120px;
+  padding-left: 23%;
+}
+.awards .container i {
+  color: goldenrod;
+  margin-left: 23%;
+  padding-bottom: 200px;
+}
+.awards .container h2 {
+  padding-bottom: 60px;
+}
+/* awards end */
